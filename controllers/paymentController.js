@@ -1,7 +1,7 @@
 
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const Transaction = require('../models/Transaction.js');
-const Ticket = require('../models/ticket.js');
+const Ticket = require('../models/Ticket.js');
 const User = require('../models/User.js');
 const { sendEmail } = require('../utils/emailUtils');
 const { logInfo, logError } = require('../utils/logger');
