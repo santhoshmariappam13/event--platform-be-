@@ -1,5 +1,4 @@
-
-const Ticket = require('../models/ticket.js');
+const Ticket = require('../models/Ticket');
 
 const buyTicket = async (req, res) => {
   const { eventId, ticketType } = req.body;
